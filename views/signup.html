@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/signup.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <header id="mainHeader" class="bg-info text-black p-3 mb-3">
+        <div class="container">
+            <div class="row">
+                <h2 id="headerTitle">Sign Up Page</h2>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="box">
+            <form action="#">
+
+                <label for="fname" class="form-label-name">Enter your name : </label>
+                <input type="text" id="fname" name="fname" class="form-control-sm " required>
+
+                <label for="femail" class="form-label">Enter your email id : </label>
+                <input type="email" id="femail" name="femail" class="form-control-sm" required>
+
+                <label for="fpassword" class="form-label">Password : </label>
+                <input type="password" id="fpassword" name="fpassword" class="form-control-sm" required>
+
+                <input type="submit" id="submit" class="btn" value="Sign Up">
+
+            </form>
+            <div class="login-link">
+                <p><a href="login.html">Log in </a> page </p>
+            </div>
+
+        </div>
+    </div>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="../public/js/signUp.js"></script>
+</body>
+
+</html>

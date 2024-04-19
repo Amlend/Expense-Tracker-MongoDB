@@ -1,0 +1,85 @@
+
+input{
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+input.btn {
+    margin-top: 3px;
+    margin-left: 4px;
+    background-color:rgb(86, 84, 84); 
+    color: white; 
+    width: 120px;
+    border-radius: 4px;
+}
+
+.logout-btn{
+    margin-top: 3px;
+    margin-left: 350px;
+    background-color:rgb(255, 255, 255); 
+    color: rgb(247, 29, 29); 
+    font-weight: 500;
+    width: 80px;
+    float: right;
+    order: 3;
+    border-radius: 4px; 
+}
+
+.btn-right {
+    margin-top: 3px;
+    margin-left: auto;
+    border-radius: 8px;
+    background-color:rgb(34, 35, 35); 
+    color: rgb(255, 255, 255); 
+    width: 150px;
+    float: right;
+    order: 2;
+}
+
+.btn2-right {
+    margin-top: 9px;
+    margin-left: 30px;
+    border-radius: 4px;
+    background-color:rgb(34, 35, 35); 
+    color: rgb(255, 255, 255); 
+    width: 140px;
+    height: 33px;
+    float: right;
+    order: 2;
+}
+.btn-right-display {
+    display: none;
+}
+
+.btn-download {
+    margin-top: 0px;
+    margin-left: auto;
+    border-radius: 12px;
+    background-color:rgb(34, 35, 35); 
+    color: rgb(255, 255, 255); 
+    width: 140px;
+    height:33px;
+    float: right;
+    order: 2;
+}
+
+
+.card{
+    background-color: rgb(221, 241, 249);
+}
+
+.premium-class{
+    padding-left: 15px;
+    margin-left : 574px;
+    margin-top: 5px;
+    font-size: x-large;
+}
+
+.paging{
+    margin-left: 300px;
+}
+
+input.rows-per-page{
+    margin-top: 0px;
+    width:50px;
+}
